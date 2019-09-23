@@ -12,7 +12,7 @@
        - image: circleci/ruby:2.4.1
      steps:
        - checkout
-       - run: "A different type of hello"
+       - run: echo "A different type of hello"
        - run: sleep 15
  workflows:
    version: 2
